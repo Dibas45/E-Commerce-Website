@@ -5,9 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Layout from './components/Layout.jsx';
 import LogIn from './components/Login.jsx';
 import Home from './components/Home.jsx';
-import Card from './components/ProductCard.jsx';
 import Shop from './components/Shop.jsx';
-import Cart from './components/Cart.jsx';
 
 const router = createBrowserRouter([
   {
@@ -19,10 +17,6 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: 'card',
-        element: <Card />,
-      },
-      {
         path: 'login',
         element: <LogIn />,
       },
@@ -30,10 +24,7 @@ const router = createBrowserRouter([
         path: 'shop',
         element: <Shop />,
       },
-      {
-        path: 'cart',
-        element: <Cart />,
-      },
+      
      
     ],
   },

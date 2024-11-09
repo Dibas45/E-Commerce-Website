@@ -21,7 +21,6 @@ const Navbar = () => {
           <div className="flex-grow hidden md:flex justify-center space-x-4">
             <Link to="/" className="hover:text-gray-400">Home</Link>
             <Link to="/shop" className="hover:text-gray-400">Shop</Link>
-            <Link to="/cart" className="hover:text-gray-400">Cart</Link>
           </div>
 
           {/* Login button - aligned to the right */}
